@@ -25,7 +25,18 @@ main {
     display: grid;
     place-content: center;
     overflow: hidden;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-position-x: 122%;
+    background-position-y: 65%;
+    background-repeat: no-repeat;
+    background-size: 170%;
 }
+/* #patern {
+    position: absolute;
+    width: 100%;
+    margin-left: -58%;
+    margin-top: -32%;
+} */
 #box {
     position: absolute;
     align-self: center;
