@@ -22,6 +22,18 @@ main {
 }
 .img-content {
     width: 50%;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+#box {
+    position: absolute;
+    align-self: center;
+    margin-left: -9%;
+    margin-top: 11%;
+}
+#ilustration {
+    margin-left: -15%;
 }
 .info-content {
     width: 50%;    
